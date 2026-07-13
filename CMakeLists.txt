@@ -11,8 +11,11 @@ qt_add_executable(PlaTwoButCooler
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
-    login.ui
+
     resources.qrc
+    loginpage.h loginpage.cpp loginpage.ui
+
+
 )
 
 target_link_libraries(PlaTwoButCooler
