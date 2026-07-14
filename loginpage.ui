@@ -13,22 +13,6 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="Background">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>701</width>
-     <height>401</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap resource="resources.qrc">:/Images/background.jpg</pixmap>
-   </property>
-  </widget>
   <widget class="QLabel" name="PlaTwo">
    <property name="geometry">
     <rect>
@@ -43,8 +27,6 @@
    </property>
   </widget>
  </widget>
- <resources>
-  <include location="resources.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
