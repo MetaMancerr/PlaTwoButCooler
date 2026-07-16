@@ -13,7 +13,7 @@ qt_add_executable(PlaTwoButCooler
     mainwindow.ui
 
     resources.qrc
-    loginpage.h loginpage.cpp loginpage.ui
+
 
 
 )
