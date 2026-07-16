@@ -24,6 +24,8 @@ private slots:
 
     void on_registerButton_clicked();
 
+    void on_showPassword_toggled(bool checked);
+
 private:
     Ui::MainWindow *ui;
     registerwindow *registerWindow;

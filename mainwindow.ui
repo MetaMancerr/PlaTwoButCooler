@@ -157,17 +157,20 @@ QPushButton:hover{
      <string>Need account?</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QCheckBox" name="showPassword">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>260</y>
-      <width>92</width>
+      <x>450</x>
+      <y>230</y>
+      <width>151</width>
       <height>25</height>
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Show Password</string>
+    </property>
+    <property name="icon">
+     <iconset theme="weather-clear"/>
     </property>
    </widget>
   </widget>

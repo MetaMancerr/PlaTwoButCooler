@@ -49,3 +49,14 @@ void MainWindow::on_registerButton_clicked()
     this->hide();
 }
 
+
+void MainWindow::on_showPassword_toggled(bool checked)
+{
+    if(checked){
+        ui->passwordEdit->setEchoMode(QLineEdit::Normal);
+    }
+    else{
+        ui->passwordEdit->setEchoMode(QLineEdit::Password);
+    }
+}
+
