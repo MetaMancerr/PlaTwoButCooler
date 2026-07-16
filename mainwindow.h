@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QPropertyAnimation>
 #include "registerwindow.h"
 
 QT_BEGIN_NAMESPACE
