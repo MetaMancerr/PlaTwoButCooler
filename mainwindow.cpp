@@ -13,6 +13,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    registerWindow = new registerwindow();
+
     QFile file("users.json");
 
     if(!file.exists()){
@@ -27,3 +29,16 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_loginButton_clicked()
+{
+
+}
+
+
+void MainWindow::on_registerButton_clicked()
+{
+    registerWindow->show();
+    this->hide();
+}
+

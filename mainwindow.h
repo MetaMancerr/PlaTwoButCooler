@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "registerwindow.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -17,7 +18,13 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow() override;
 
+private slots:
+    void on_loginButton_clicked();
+
+    void on_registerButton_clicked();
+
 private:
     Ui::MainWindow *ui;
+    registerwindow *registerWindow;
 };
 #endif // MAINWINDOW_H

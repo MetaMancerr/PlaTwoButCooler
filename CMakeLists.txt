@@ -13,6 +13,8 @@ qt_add_executable(PlaTwoButCooler
     mainwindow.ui
 
     resources.qrc
+    registerwindow.h registerwindow.cpp registerwindow.ui
+
 
 
 
