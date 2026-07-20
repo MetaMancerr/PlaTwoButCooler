@@ -14,6 +14,8 @@ qt_add_executable(PlaTwoButCooler
 
     resources.qrc
     registerwindow.h registerwindow.cpp registerwindow.ui
+    games/Game.h games/Game.cpp
+    games/DotsAndBoxes.h games/DotsAndBoxes.cpp
 
 
 
